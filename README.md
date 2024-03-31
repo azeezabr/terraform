@@ -24,4 +24,17 @@ Resource Management within Azure
 
 **Note: ** Terraform recommends using either a Service Principal or Managed Service Identity when running Terraform non-interactively (such as when running Terraform in a CI server) - and authenticating using the Azure CLI when running Terraform locally.
 
-* [Terraform resource link] https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+* [Terraform resource link](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
+
+## Data Source and Import in Terraform
+* [Useful Link](https://chat.openai.com/share/463fe80e-4f92-4f2f-917e-1ee5ac203857)
+
+
+## Useful commands:
+```terraform
+ terraform state list
+ terraform state show <resource>
+ terraform plan -destroy
+ terraform apply -destroy
+```
