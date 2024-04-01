@@ -37,4 +37,6 @@ Resource Management within Azure
  terraform state show <resource>
  terraform plan -destroy
  terraform apply -destroy
+ terraform apply -auto-approve
+ssh -i <C:\Users\..> rootUser@<ip>
 ```
