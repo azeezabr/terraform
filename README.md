@@ -7,7 +7,8 @@ Resource Management within Azure
 
 **Note:** Creating Sbscription via Terraform is not possible (because subscriptions are managed through the Azure portal or Azure account management services, not through the Azure Resource Manager (ARM) API which Terraform interacts with.)
 
-
+## Installing Azure CLI
+  * https://learn.microsoft.com/en-us/cli/azure/
 
 ## Installing Terraform:
   * Windows:
