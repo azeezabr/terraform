@@ -1,4 +1,4 @@
-# Terraform
+ls # Terraform
 
 Resource Management within Azure 
 
@@ -38,5 +38,12 @@ Resource Management within Azure
  terraform plan -destroy
  terraform apply -destroy
  terraform apply -auto-approve
-ssh -i <C:\Users\..> rootUser@<ip>
+ ssh -i <C:\Users\..> rootUser@<ip>
+ terraform apply -refresh-only
+terraform console
+$ terraform console -var="host_os=linux"
+> var.host_os
+$ terraform console
+> var.host_os == "windows" ? "powershell" : "bash"
+terraform apply -refresh-only
 ```
