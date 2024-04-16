@@ -47,4 +47,8 @@ $ terraform console -var="host_os=linux"
 $ terraform console
 > var.host_os == "windows" ? "powershell" : "bash"
 terraform apply -refresh-only
+terraform apply -target=module.001_security
+terraform apply -target=module.001_security.aws_security_group.my_security_group
+
+
 ```
